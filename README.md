@@ -81,6 +81,8 @@ O aplicativo estará disponível em `http://localhost:{SuaPorta}`.
 ### Executando Comandos no Contêiner
 
 ``` bash
+docker-compose exec app php artisan key:generate
+
 # Executar migrações dentro do contêiner
 docker-compose exec app php artisan migrate
 
