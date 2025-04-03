@@ -145,12 +145,6 @@ php artisan test --filter=TransactionControllerTest
 php artisan test --filter=test_transfer_successful
 ```
 
-### Executando Testes com Cobertura
-
-``` bash
-php artisan test --coverage
-```
-
 ## Documentação com PHPDoc
 
 O projeto utiliza PHPDocumentor para a geração automática de documentação.
